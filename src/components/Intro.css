@@ -1,0 +1,14 @@
+.Intro-Parent-Flexbox{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    font-family:"Quicksand";
+    
+    margin-bottom:40px;
+}
+
+@media only screen and ( max-width:500px) {
+    .Animation-Character{
+        display:none;
+    }
+}

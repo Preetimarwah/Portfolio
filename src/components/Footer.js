@@ -6,6 +6,7 @@ const Footer = () => {
         <div id="Contactme">
             <div className="Footer"> 
             <form name="contact" netlify>
+            <input type="hidden" name="form-name" value="contact" />
   <p>
     <label>Name <input type="text" name="name" /></label>
   </p>

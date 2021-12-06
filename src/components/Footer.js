@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div id="Contactme">
             <div className="Footer"> 
-            <form name="contact" data-netlify="true">
+            <form name="contact" netlify>
                 <h5>Your Name</h5>
                <input name="name" type="textbox"/>
                <h5>Your Email ID</h5>

@@ -30,6 +30,13 @@
     font-weight:bold;
 }
 
+.Footer textarea{
+    width:400px;
+    height:45px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
 .Footer input:hover{
     background-color:pink;
 }
@@ -80,5 +87,11 @@
     font-weight:bold;
 }
 
+.Footer textarea{
+    width:230px;
+    height:45px;
+    border-radius:10px;
+    font-weight:bold;
+}
 }
 

@@ -6,16 +6,27 @@ const Footer = () => {
         <div id="Contactme">
             <div className="Footer"> 
             <form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+            {/* <form name="contact" netlify>
                 <h5>Your Name</h5>
-               <input name="name" type="textbox"/>
+               <input name="name" type="text"/>
                <h5>Your Email ID</h5>
                <input name="email" type="textbox"/>
                <h5>Your message</h5>
                <textarea name="message"type="textarea" style={{height:"100px"}}/><br/> <br/>
-            <div>
+           
            <button type="submit"className="Send-Button btn btn-primary" >Send</button>
-            </div>
-            </form>
+            
+            </form> */}
             <div className="Second-Flexbox">
                <div> <h4> Click on below icons to visit my social media profile</h4>
                <a href="https://github.com/Preetimarwah">   <img src="/github.png" alt=""/></a>
